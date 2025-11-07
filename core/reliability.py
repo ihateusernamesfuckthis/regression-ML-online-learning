@@ -30,6 +30,7 @@ def assess_reliability(completeness: float) -> dict:
         message = "Inputtet er mangelfuldt ift modellens features. Prediction er upålidelig"
     
     return {
+        "completeness": completeness,
         "score": score,
         "label": label,
         "message": message
