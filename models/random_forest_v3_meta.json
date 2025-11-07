@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-11-04 23:30:39.450431",
+  "best_params": {
+    "model__n_estimators": 600,
+    "model__min_samples_split": 5,
+    "model__min_samples_leaf": 1,
+    "model__max_features": "sqrt",
+    "model__max_depth": null,
+    "model__bootstrap": false
+  },
+  "best_score": 0.14267952110294813,
+  "model_path": "models/random_forest_v3.pkl"
+}

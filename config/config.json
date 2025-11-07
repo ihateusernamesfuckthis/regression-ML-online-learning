@@ -1,0 +1,6 @@
+{
+  "data_path": "HOUSE/housetrain.csv",
+  "model_path": "models/random_forest_v3.pkl",
+  "metadata_path": "models/random_forest_v3_meta.json",
+  "random_state": 42
+}
