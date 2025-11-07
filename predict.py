@@ -1,8 +1,8 @@
 import joblib
 import pandas as pd
-from config_utils import load_config
+from config.config_utils import load_config
 from pathlib import Path
-from prepare_features import prepare_features
+from core.prepare_features import prepare_features
 
 def load_model(model_path: str):
     """Loader den serialized model pipeline fra disk"""

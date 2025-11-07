@@ -1,10 +1,10 @@
 from pathlib import Path
-from data_utils import load_data, clean_data, split_data
-from prepare_features import prepare_features
-from preprocessing import build_preprocessor
-from modeling import train_random_forest
-from evaluation import evaluate_model
-from config_utils import load_config
+from core.data_utils import load_data, clean_data, split_data
+from core.prepare_features import prepare_features
+from core.preprocessing import build_preprocessor
+from core.modeling import train_random_forest
+from core.evaluation import evaluate_model
+from config.config_utils import load_config
 
 def main():
     # Get the directory where this script is located

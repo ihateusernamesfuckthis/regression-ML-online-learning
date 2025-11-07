@@ -1,10 +1,10 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 import pandas as pd
-from config_utils import load_config
-from prepare_features import prepare_features
-from schema_harmonizer import align_features
-from reliability import assess_reliability
+from config.config_utils import load_config
+from core.prepare_features import prepare_features
+from core.schema_harmonizer import align_features
+from core.reliability import assess_reliability
 import joblib
 from pathlib import Path
 import numpy as np
